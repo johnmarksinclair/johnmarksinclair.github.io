@@ -20,11 +20,13 @@
         a { color: #999; text-decoration: none; border-bottom: 1px dotted #999; }
         a:hover { border-bottom-style: solid; color: white; }
         ul { margin: 0 0 32px 17px; }
-        #objective { width: 500px; float: left; }
+        #objective { width: 600px; float: left; }
         #objective p { font-family: Georgia, Serif; font-style: italic; color: whitesmoke; }
-        dt { font-style: italic; font-weight: bold; color: whitesmoke; font-size: 18px; text-align: right; padding: 0 26px 0 0; width: 150px; float: left; height: 100px; border-right: 1px solid #999;  }
+        dt { font-style: italic; font-weight: bold; color: whitesmoke; font-size: 18px; text-align: left; padding: 0 26px 0 0; width: 150px; float: left; height: 100px; border-right: 1px solid #999;  }
         dd { width: 600px; float: right; color: whitesmoke;}
         dd.clear { float: none; margin: 0; height: 15px; }
+        .row { display: flex; }
+        .column { flex: 50%; }
      </style>
 </head>
 
@@ -33,18 +35,31 @@
     <div id="page-wrap">
   
         <div id="contact-info" class="vcard">
-        
             <h1 class="fn">John Sinclair</h1>
-        
-            <p>
-                Phone Number: 085 1253702<br />
-                Email: <a class="email" href="mailto:sinclairjohn72@gmail.com">sinclairjohn72@gmail.com</a><br />
-            </p>
+        </div>
+
+        <div class="clear"></div>
+
+        <div class="row">
+            <div class="column">
+                <p>
+                    Date of Birth: 16 March 1998<br />
+                    Phone Number: 085 1253702<br />
+                    Email: <a class="email" href="mailto:sinclairjohn72@gmail.com">sinclairjohn72@gmail.com</a>
+                </p>
+            </div>
+            <div class="column">
+                <p>
+                    Address:<br />
+                    72 Leinster Wood, Carton Demesne,<br />
+                    Maynooth, Co. Kildare
+                </p>
+            </div>
         </div>
                 
         <div id="objective">
             <p>
-                I am a reliable, punctual college student that is fast learning and enthusiastic. 
+                I am a reliable, punctual university student that is fast learning and enthusiastic. 
             </p>
         </div>
         
