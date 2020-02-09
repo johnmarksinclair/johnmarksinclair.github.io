@@ -21,7 +21,7 @@ h1 {
     font-weight: bold; 
     letter-spacing: 0px; 
     border-bottom: 1px solid #FFFFFFFF; 
-    width: 800px;
+    width: 690px;
 }
 h2 { 
     font-size: 20px; 
@@ -46,10 +46,9 @@ p {
 }
 a { 
     color: #999; 
-    text-decoration: none; 
+    text-decoration: none;
 }
 a:hover {
-    border-bottom: 1px solid #999;
     color: white; 
 }
 ul { 
@@ -98,4 +97,13 @@ dd.clear {
 .column2 {
     flex: 30%;
     text-align: left;
+}
+.fa {
+    padding: 20px;
+    font-size: 60px;
+    width: 50px;
+    display: inline-block;
+}
+.fa:hover {
+    opacity: 0.7;
 }
